@@ -41,14 +41,13 @@ main{
 
 
 .containerCajas{
-    overflow: hidden;
     height: 828px;
     width: 1000px;
 }
 
 .containerCajas div{
-    border: 1px solid black;
-
+    border-left: 1px solid black;
+    background-color: rgb(194, 194, 194);
 }
 
 div{
@@ -63,10 +62,16 @@ div{
 
 }
 
+/* aside */
+
 .asid div{
+    border-bottom: 1px solid black;
     width: 100%;
     height: 276px;
+    background-color: rgb(187, 187, 187);
 }
+
+
 
 
 
