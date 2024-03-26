@@ -23,6 +23,10 @@
     text-decoration: none;
 }
 
+.nav-bar a:hover{
+    color: rgb(133, 128, 83);
+}
+
 .nav-bar ul{
     display: flex;
     align-items: center;
@@ -53,7 +57,7 @@ main{
 div{
     display: flex;
     justify-content: center;
-    align-items: center;
+        align-items: center;
     text-align: center;
     background-color: rgb(146, 146, 146);
     width: 400px;
@@ -69,6 +73,11 @@ div{
     width: 100%;
     height: 276px;
     background-color: rgb(187, 187, 187);
+}
+
+.asid div a {
+    text-decoration: none;
+    font-size: 1.3rem;
 }
 
 
