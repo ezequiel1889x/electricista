@@ -6,6 +6,10 @@
     font-family: "Noto Sans", sans-serif;
 }
 
+
+body{
+    background-color: rgba(33, 31, 66, 0.699);
+}
 /* HEADER */
 .nav-bar{
     display: flex;
@@ -54,8 +58,8 @@ main{
 }
 
 
-.containerCajas{
-    
+.containerCajas1 div{
+ 
 }
 
 .containerCajas2{
@@ -76,7 +80,7 @@ main{
     
 }
 .cuadro{
-display: flex;
+display: flex;  
 flex-direction: column;
 justify-content: center;
 align-items: center;
