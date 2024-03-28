@@ -53,21 +53,32 @@ main{
     grid-template-columns: repeat(2,5fr);
 }
 
+.cuadro{
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2,6fr);
+}
 
 .containerCajas{
     height: 828px;
     width: 1000px;
 }
 
+.containerCajas2{
+    height: 828px;
+}
+
 .containerCajas div{
     border-left: 1px solid black;
     background-color: rgb(194, 194, 194);
+
 }
 
-div{
+.cuadro div{
     display: flex;
     justify-content: center;
-        align-items: center;
+    align-items: center;
     text-align: center;
     background-color: rgb(146, 146, 146);
     width: 400px;
