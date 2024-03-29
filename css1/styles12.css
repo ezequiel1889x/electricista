@@ -15,11 +15,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color: rgba(72, 74, 105, 0.952);
+    height: 3.125rem;
 
 }
 
 .nav-bar h1{
-    font-size: 30px;
+    font-size: 2.6875rem;
 }
 
 .nav-bar h1 a{
@@ -44,7 +45,8 @@ color: rgb(179, 179, 179);
 .nav-bar ul{
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 8.125rem;
+    margin-left: 30rem;
 }
 
 
@@ -58,25 +60,17 @@ main{
 }
 
 
-.containerCajas1 div{
- 
+.containerCajas1{
+ border: .0625rem solid black;
 }
 
 .containerCajas2{
-    
+    border: .0625rem solid black;
 }
 
 .containerCajas div{
-    border-left: 1px solid black;
+    border-left: .0625rem solid black;
     background-color: rgb(194, 194, 194);
-    
-}
-
-.c1{
-    border-left: 1px solid black;
-    width: 400px;
-    height: 380px;
-    
     
 }
 .cuadro{
@@ -85,6 +79,14 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 grid-template-columns: repeat(2,6fr);
+}
+
+.c1{
+    border-left: 1px solid black;
+    width: 400px;
+    height: 380px;
+    
+    
 }
 .c2{
     border-left: 1px solid black;
@@ -124,17 +126,52 @@ grid-template-columns: repeat(2,6fr);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom:3px solid black;
     width: 100%;
     height: 276px;
     background-color: rgb(187, 187, 187);
 }
 
 .asid div a {
+    color: black;
+    background-color: rgba(189, 161, 109, 0.836);
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    border-radius: 15px;
+    padding: 5px 25px;
+    border: 2px solid black;
+    box-shadow: 12px 15px 30px 6px;
 }
 
+.Th img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.Th{
+    background: url(/assets/trabajo\ hecho.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.Qt{
+background: url(/assets/con\ quien\ trabajamos.jpeg);
+background-repeat: no-repeat;
+background-size: cover
+}
+
+
+
+.Qs{
+    background: url(/assets/quienes\ somos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
