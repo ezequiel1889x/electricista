@@ -152,7 +152,7 @@ grid-template-columns: repeat(2,6fr);
 }
 
 .Th{
-    background: url(/assets/trabajo\ hecho.jpeg);
+    background: url(/assets/imgAside/trabajo\ hecho.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -160,7 +160,7 @@ grid-template-columns: repeat(2,6fr);
 
 
 .Qt{
-background: url(/assets/con\ quien\ trabajamos.jpeg);
+background: url(/assets/imgAside/con\ quien\ trabajamos.jpeg);
 background-repeat: no-repeat;
 background-size: cover
 }
@@ -168,7 +168,7 @@ background-size: cover
 
 
 .Qs{
-    background: url(/assets/quienes\ somos.jpeg);
+    background: url(/assets/imgAside/quienes\ somos.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -186,7 +186,7 @@ background-size: cover
     height: 5.5rem;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px;
+    padding: 0px 20px;
     background-color: rgba(72, 74, 105, 0.952);    
 }
 
@@ -199,7 +199,7 @@ background-size: cover
 .foot ul{
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 80px;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.438);
     border-radius: 10px;
