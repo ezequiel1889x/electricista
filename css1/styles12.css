@@ -129,19 +129,29 @@ grid-template-columns: repeat(2,6fr);
     border-bottom:3px solid black;
     width: 100%;
     height: 276px;
-    background-color: rgb(187, 187, 187);
 }
 
 .asid div a {
     color: black;
-    background-color: rgba(189, 161, 109, 0.836);
+    background-color: rgba(36, 37, 107, 0.747);
     text-decoration: none;
     font-size: 1.8rem;
     border-radius: 15px;
     padding: 5px 25px;
     border: 2px solid black;
-    box-shadow: 12px 15px 30px 6px;
+    box-shadow: 12px 15px 30px 6px black;
 }
+.Th{
+    background: url(/assets/imgAside/trabajo\ hecho.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Th a:hover {
+    color: rgba(255, 255, 255, 0.788);
+}
+
 
 .Th img{
     background-repeat: no-repeat;
@@ -151,11 +161,6 @@ grid-template-columns: repeat(2,6fr);
     height: 100%;
 }
 
-.Th{
-    background: url(/assets/imgAside/trabajo\ hecho.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
@@ -163,6 +168,10 @@ grid-template-columns: repeat(2,6fr);
 background: url(/assets/imgAside/con\ quien\ trabajamos.jpeg);
 background-repeat: no-repeat;
 background-size: cover
+}
+
+.Qt a:hover {
+    color: rgba(255, 255, 255, 0.788);
 }
 
 
@@ -173,7 +182,9 @@ background-size: cover
     background-size: cover;
 }
 
-
+.Qs a:hover {
+    color: rgba(255, 255, 255, 0.788);
+}
 
 
 
