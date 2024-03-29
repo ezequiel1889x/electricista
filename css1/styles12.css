@@ -183,7 +183,7 @@ background-size: cover
 /* FOOTER */
 .foot {
     display: flex;
-    height: 104px;
+    height: 5.5rem;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
@@ -197,14 +197,17 @@ background-size: cover
 }
 
 .foot ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.438);
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 15px;
     
 }
 
-.foot ul li a {
-    text-decoration: none;
+.foot ul li img{
+    height:35px;
 }
