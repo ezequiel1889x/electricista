@@ -37,10 +37,11 @@ color: rgb(179, 179, 179);
 .nav-bar ul li a{
     color: rgba(206, 204, 204, 0.938);
     text-decoration: none;
+    font-size: 18px;
 }
 
 .nav-bar a:hover{
-    color: rgb(133, 128, 83);
+    color: rgb(180, 157, 51);
 }
 
 .nav-bar ul{
@@ -101,12 +102,18 @@ grid-template-columns: repeat(2,6fr);
     background-color: rgba(19, 18, 18, 0.829);
     color: white;
     border-radius: 90px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .c1 img{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.568);
     border-radius: 40px;    
+}
+.c1 h2{
+    padding-bottom: 20px;
+}
+.c1 img:hover{
+    background-color: rgb(180, 157, 51);
 }
 .c2{
     display: flex;
@@ -120,9 +127,15 @@ grid-template-columns: repeat(2,6fr);
     color: white;
 }
 .c2 img{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.568);
     border-radius: 40px;
+}
+.c2 h2{
+    padding-bottom: 20px;
+}
+.c2 img:hover{
+    background-color: rgb(180, 157, 51);
 }
 .c3{
     display: flex;
@@ -135,9 +148,15 @@ grid-template-columns: repeat(2,6fr);
     color: white;
 }
 .c3 img{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.568);
     border-radius: 40px;
+}
+.c3 img:hover{
+    background-color: rgb(180, 157, 51);
+}
+.c3 h2{
+    padding-bottom: 20px;
 }
 .c4{
     display: flex;
@@ -150,10 +169,15 @@ grid-template-columns: repeat(2,6fr);
     color: white;
 }
 .c4 img{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-color: rgba(255, 255, 255, 0.568);
     border-radius: 40px;
-    
+}
+.c4 h2{
+    padding-bottom: 20px;
+}
+.c4 img:hover{
+    background-color: rgb(180, 157, 51);
 }
 
 
@@ -255,13 +279,14 @@ background-size: cover
 .foot h2{
     background-color: rgba(240, 248, 255, 0.438);
     border-radius: 10px;
-    width: 400px;
+    width: 500px;
+    padding: 0 35px;
 }
 
 .foot ul{
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 75px;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.438);
     border-radius: 10px;
@@ -270,6 +295,16 @@ background-size: cover
     
 }
 
+.foot ul li{
+    border-radius: 20px;
+    height: 42px;
+
+}
+
+.foot ul li:hover{
+    background-color: rgb(180, 157, 51);
+}
+
 .foot ul li img{
-    height:35px;
+    height:43px;
 }
