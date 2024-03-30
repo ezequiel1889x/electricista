@@ -260,7 +260,7 @@ aside{
 .Qt{
 background: url(/assets/imgAside/con\ quien\ trabajamos.jpeg);
 background-repeat: no-repeat;
-background-size: cover
+background-size: cover;
 }
 
 .Qt a:hover {
@@ -273,6 +273,7 @@ background-size: cover
     background: url(/assets/imgAside/quienes\ somos.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: -5px -80px;
 }
 
 .Qs a:hover {
