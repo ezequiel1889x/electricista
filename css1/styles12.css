@@ -104,7 +104,7 @@ grid-template-columns: repeat(2,6fr);
     color: white;
     border-radius: 90px;
     margin-bottom: 40px;
-    box-shadow: 10px 10px 30px 0px rgb(212, 212, 212);
+    box-shadow: 0px 0px 23px rgb(212, 212, 212);
 }
 .c1 img{
     margin-bottom: 50px;
@@ -127,7 +127,7 @@ grid-template-columns: repeat(2,6fr);
     margin-bottom: 30px;
     background-color: rgba(19, 18, 18, 0.829);
     color: white;
-    box-shadow: 10px 10px 30px 0px rgb(212, 212, 212);
+    box-shadow: 0px 0px 23px rgb(212, 212, 212);
 }
 .c2 img{
     margin-bottom: 50px;
@@ -149,7 +149,7 @@ grid-template-columns: repeat(2,6fr);
     border-radius: 90px;
     color: white;
     background-color: rgba(19, 18, 18, 0.829);
-    box-shadow: 10px 10px 30px 0px rgb(212, 212, 212);
+    box-shadow: 0px 0px 23px rgb(212, 212, 212);
 }
 .c3 img{
     margin-bottom: 50px;
@@ -171,7 +171,7 @@ grid-template-columns: repeat(2,6fr);
     background-color: grey;
     border-radius: 90px;
     background-color: rgba(19, 18, 18, 0.829);
-    box-shadow: 10px 10px 30px 0px rgb(212, 212, 212);
+    box-shadow: 0px 0px 23px rgb(212, 212, 212);
 }
 .c4 img{
     margin-bottom: 50px;
