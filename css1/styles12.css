@@ -61,61 +61,82 @@ main{
 
 .cuadro{
 display: flex;  
+margin: auto;
 flex-direction: column;
+height: 80%;
 justify-content: center;
 align-items: center;
 grid-template-columns: repeat(2,6fr);
 }
 
+
+
 .containerCajas1{
- border: .0625rem solid black;
+     height: 100%;
+     gap: 30px;
+
 }
 .containerCajas1 div img{
-    width: 10px;
-    height: 10px;
+    width: 80px;
+    height: 80px;
    }
-.containerCajas2{
-    border: .0625rem solid black;
-}
 
-.containerCajas2 div img{
-width: 100px;
-    height: 50px;   
+   .containerCajas2{
+       gap: 30px;
+   }
+   
+.containerCajas2 img{
+    width: 80px;
+    height: 80px;
 }
 
 
 .c1{
-    border-left: 1px solid black;
-    width: 230px;
-    height: 300px;
-    
-    
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    width: 350px;
+    height: 375px;
+}
+.c1 img{
+    margin-bottom: 100px;
 }
 .c2{
-    border-left: 1px solid black;
-    width: 230px;
-    height: 300px;
-    
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 375px;
+}
+.c2 img{
+    margin-bottom: 100px;
 }
 .c3{
-    border-left: 1px solid black;
-    width: 230px;
-    height: 300px;
-    
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 375px;
+}
+.c3 img{
+    margin-bottom: 100px;
 }
 .c4{
-    border-left: 1px solid black;
-    width: 230px;
-    height: 300px;
-    
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 375px;
 }
+.c4 img{
+    margin-bottom: 100px;
+}
+
+
 
 .cuadro div{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(146, 146, 146);
+
 
 
 
