@@ -98,36 +98,62 @@ grid-template-columns: repeat(2,6fr);
     top: 0px;
     width: 350px;
     height: 375px;
+    background-color: rgba(19, 18, 18, 0.829);
+    color: white;
+    border-radius: 90px;
+    margin-bottom: 30px;
 }
 .c1 img{
     margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 40px;    
 }
 .c2{
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 375px;
+    background-color: grey;
+    border-radius: 90px;
+    margin-bottom: 30px;
+    background-color: rgba(19, 18, 18, 0.829);
+    color: white;
 }
 .c2 img{
     margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 40px;
 }
 .c3{
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 375px;
+    background-color: grey;
+    border-radius: 90px;
+    background-color: rgba(19, 18, 18, 0.829);
+    color: white;
 }
 .c3 img{
     margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 40px;
 }
 .c4{
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 375px;
+    background-color: grey;
+    border-radius: 90px;
+    background-color: rgba(19, 18, 18, 0.829);
+    color: white;
 }
 .c4 img{
     margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 40px;
+    
 }
 
 
