@@ -328,6 +328,8 @@ background-size: cover;
     height:43px;
 }
 
+
+
 /*                        CONTACTO_CSS                             */
 
 .mainContacto{
@@ -388,13 +390,11 @@ button{
 
 .titulo{
     display: flex;
+    padding-bottom: 10px;
+    text-align: center;
     justify-content: center;
     font-size: 15px;
 }   
-
-.titulo i {
-    height: 10px;
-}
 
 .ubicacion iframe{
     width: 100%;
