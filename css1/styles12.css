@@ -330,12 +330,16 @@ background-size: cover;
 
 /*                        CONTACTO_CSS                             */
 
-
+.mainContacto{
+    margin-bottom: 121px;
+}
 
 .cuerpoContacto{
     display: grid;
+    margin-top: 100px;
     grid-template-columns: repeat(2,6fr);
     width: 1910px;
+    height: 600px;
 }
 
 
