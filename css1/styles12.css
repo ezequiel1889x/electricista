@@ -344,31 +344,45 @@ background-size: cover;
     height: 600px;
 }
 
+.formulario{
+    display: flex;
+    justify-content: center;
+
+}
 
 .formform{
-    background-color: rgba(80, 83, 126, 0.705);
+    background-color: rgba(224, 224, 224, 0.705);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    width: 650px;
+    height: 550px;
     gap: 20px;
     font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.tituloForm{
+    background-color: rgba(22, 133, 37, 0.438);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
 }
 
 .formulario input{
     padding-left: 5px;
     font-size: 16px;
-    width: 50%;
+    width: 70%;
     height: 5%;
 }
 
 textarea{
     font-size: 15px;
     padding: 8px;
-    width: 50%;
+    width: 70%;
     height: 20%;
 }
 
@@ -376,6 +390,11 @@ button{
     width: 30%;
     height: 5%;
 }
+
+button:hover{
+    cursor: pointer;
+}
+
 
 
 
@@ -385,16 +404,34 @@ button{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: rgba(80, 83, 126, 0.705);
+    background-color: rgba(224, 224, 224, 0.705);
+    border-radius: 20px;
+    margin-right: 12px;
+    height: 550px;
+    box-shadow: 0px 0px 20px black;
 }
 
 .titulo{
     display: flex;
     padding-bottom: 10px;
+    font-size: 15px;
     text-align: center;
     justify-content: center;
-    font-size: 15px;
-}   
+ 
+}
+
+.titulo h2{
+    padding: 0px 10px;
+    background-color: rgba(22, 133, 37, 0.438);
+    border-radius: 15px;
+
+
+}
+
+.titulo i {
+    font-size: 22px;
+    
+}
 
 .ubicacion iframe{
     width: 100%;
