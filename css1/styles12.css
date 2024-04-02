@@ -6,7 +6,6 @@
     font-family: "Noto Sans", sans-serif;
 }
 
-
 body{
     background-color: rgba(33, 31, 66, 0.699);
 }
@@ -72,8 +71,6 @@ align-items: center;
 grid-template-columns: repeat(2,6fr);
 }
 
-
-
 .containerCajas1{
      height: 100%;
      gap: 30px;
@@ -92,7 +89,6 @@ grid-template-columns: repeat(2,6fr);
     width: 80px;
     height: 80px;
 }
-
 
 .c1{
     display: flex;
@@ -192,10 +188,6 @@ grid-template-columns: repeat(2,6fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-
-
-
-
 }
 
 /* aside */
@@ -347,8 +339,9 @@ background-size: cover;
 .formulario{
     display: flex;
     justify-content: center;
-
+    ;
 }
+
 
 .formform{
     background-color: rgba(224, 224, 224, 0.705);
@@ -363,10 +356,12 @@ background-size: cover;
     font-size: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px black;
+    background-image: url(../assets/imgContacto/electricidad.png)
 }
 
 .tituloForm{
     background-color: rgba(22, 133, 37, 0.438);
+    box-shadow: 0px 0px 30px black;
     border-radius: 15px;
     padding: 5px 10px;
     margin-bottom: 15px;
@@ -377,13 +372,18 @@ background-size: cover;
     font-size: 16px;
     width: 70%;
     height: 5%;
+    box-shadow: 0px 0px 15px black;
+    border: 1px solid black;
 }
 
 textarea{
     font-size: 15px;
     padding: 8px;
-    width: 70%;
+    min-width: 455px;
+    max-width: 300px;
     height: 20%;
+    box-shadow: 0px 0px 25px black;
+    border: 2px solid black;
 }
 
 button{
@@ -409,6 +409,7 @@ button:hover{
     margin-right: 12px;
     height: 550px;
     box-shadow: 0px 0px 20px black;
+
 }
 
 .titulo{
@@ -424,13 +425,10 @@ button:hover{
     padding: 0px 10px;
     background-color: rgba(22, 133, 37, 0.438);
     border-radius: 15px;
-
-
 }
 
 .titulo i {
     font-size: 22px;
-    
 }
 
 .ubicacion iframe{
